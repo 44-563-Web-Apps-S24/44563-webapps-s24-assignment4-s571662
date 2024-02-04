@@ -1,14 +1,16 @@
-h1
+
 .speech{
     font-size: small;
      color:black;
 }
-{font-family: Arial, sans-serif;font-size: medium;color: black;}
-.direction 
-{font-family: "Courier";font-size: x-small;color: black;}
-.direction:hover 
-{background-color: aqua;}
-.OLGA
+.direction{
+    font-size: x-large;
+}
+.direction:hover{
+    color:black;
+    background-color: wheat;
+}
+
 {color: aqua;}
 .IRINA 
 {color: rgb(239, 211, 247);}
@@ -27,3 +29,23 @@ h1
 .VERSHININ
 {color:blueviolet}
 .NATASHA
+{color: turquoise;}
+.OLGA
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: rgb(136,112,216)
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: bisque;
+}
+th,td{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
