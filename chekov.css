@@ -1,10 +1,10 @@
 
 .speech{
-    font-size: small;
+    font-size: medium;
      color:black;
 }
 .direction{
-    font-size: x-large;
+    font-size: x-small;
 }
 .direction:hover{
     color:black;
@@ -49,5 +49,35 @@ th,td{
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.NATASHA:hover{
-    text-shadow:1px 1px 5px rgb(7, 236, 7);}
+.ANDREY:hover{
+    text-shadow:1px 1px 5px rgb(59, 112, 59);}
+
+    .bottom-navbar {
+        background-color: #5b2424;
+        overflow: hidden;
+        position:static;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+    }
+    .image{
+        height: 400px;
+        width: 400px; 
+    }
+    .bottom-navbar a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px; 
+    }
+    
+    .bottom-navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .bottom-navbar a i {
+        margin-right: 5px;
+    }
